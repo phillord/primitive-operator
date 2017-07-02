@@ -20,22 +20,23 @@ the creation of ints and float.
 
 ## Usage
 
-(require '[primititve.operator.integer :as i])
+    (require '[primititve.operator.integer :as i])
 
-(i/+ 10 10)
-=> 20
+    (i/+ 10 10)
+    => 20
 
-(type (i/+ 10 10))
-=> java.lang.Integer
+    (type (i/+ 10 10))
+    => java.lang.Integer
 
-(i/add 10 10)
-=> 20
+    (i/add 10 10)
+    => 20
 
-(i/not 10)
-=> -11
+    (i/not 10)
+    => -11
 
-(i/+ #p/i 10 #p/i 10)
-=> 20
+    (i/+ #p/i 10 #p/i 10)
+    => 20
+
 
 ## License
 
