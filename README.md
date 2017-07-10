@@ -1,4 +1,4 @@
-# primitive-operator
+# Primitive Operator
 
 Clojure has an extensive system for dealing with numbers, including
 error on overflow, or auto-promotion, defaulting to long and double
