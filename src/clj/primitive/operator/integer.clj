@@ -1,4 +1,5 @@
 (ns primitive.operator.integer
+  (:refer-clojure :exclude [* / % + -])
   (:import [primitive.operator PInteger]))
 
 
